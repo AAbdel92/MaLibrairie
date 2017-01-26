@@ -17,7 +17,6 @@ public class Livre {
 	public void sePresenter() {
 		String moi = "Livre : " + this.nom + " , " + this.auteur;
 		System.out.println(moi);
-		blabla
 	}
 
 }
