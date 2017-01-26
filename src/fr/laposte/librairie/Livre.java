@@ -19,4 +19,7 @@ public class Livre {
 		System.out.println(moi);		
 	}
 
+	public static Livre creerLivre(String nom, String auteur, String ibsn, float prix) {
+		return new Livre(nom, auteur, ibsn, prix);		
+	}
 }
